@@ -1,0 +1,43 @@
+section{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.cards{
+    width: 250px;
+    padding: 25px;
+}
+.cards:hover{
+    box-shadow: 0 10px 10px rgb(0,0,0,0.4);
+    cursor: pointer;
+}
+
+.img-box img{
+    height: 200px ;
+    width: 150px;
+}
+.details p:nth-child(1){
+    font-weight: bold;
+}
+.details p:nth-child(2){
+   color: grey;
+   font-size: 0.8rem;
+}
+.details p:nth-child(3){
+    font-weight: bold;
+    color: grey;
+}
+.details button{
+  padding: 5px 10px;
+  margin-top: 6px;
+  border: none;
+  font-weight: bold;
+  background-color: skyblue;
+}
+.details button:hover{
+    background-color: rgb(0, 255, 123);
+}

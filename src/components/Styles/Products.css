@@ -1,0 +1,31 @@
+.warning{
+    height: 40px;
+    width: 250px;
+    position: absolute;
+    right: 0;
+    top: 10%;
+    background-color: rgb(182, 88, 88);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    color: red;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .fixed-top{
+    box-shadow: 0 0.12rem 0.675rem rgb( 0 0 0 / 5%);
+  }
+  img{
+    width: 100%;
+    height: 60vh;
+  }
+  .cart{
+    cursor: pointer;
+}
+.fproducts{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 20px;
+}
